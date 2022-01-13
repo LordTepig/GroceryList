@@ -22,7 +22,11 @@ class HomeFragment : Fragment() {
         val rootView = binding.root
         // Inflate the layout for this fragment
         binding.startListButton.setOnClickListener {
-            //navigate to groceryListFragment
+            val name = binding.enterNameEditText.text.toString()
+
+            val action = HomeFragmentDirections.actionHomeFragmentToGroceryListFragment()
+            rootView.findNavController().navigate(action) //navigates to groceryListFragment
+
         }
         return rootView
     }
