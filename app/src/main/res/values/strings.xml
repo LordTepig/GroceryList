@@ -7,15 +7,14 @@
     <string name="start_list">START LIST</string>
     <string name="add_item">ADD ITEM</string>
     <string name="starting_welcome">Welcome,</string>
-    <string name="butter">ALMOND BUTTER</string>
-    <string name="real_butter">butter</string>
-    <string name="milk">milk</string>
-    <string name="eggs">EGGS</string>
-    <string name="bananas">BANANAS</string>
-    <string name="strawberries">STRAWBERRIES</string>
-    <string name="pasta">PASTA</string>
-    <string name="meatballs">MEATBALLS</string>
-    <string name="bread">BREAD</string>
-    <string name="grapes">GRAPES</string>
-    <string name="peanut_butter">PEANUT BUTTER</string>
+    <string name="milk">Milk</string>
+    <string name="eggs">Eggs</string>
+    <string name="bananas">Bananas</string>
+    <string name="strawberries">Strawberries</string>
+    <string name="pasta">Pasta</string>
+    <string name="meatballs">Meatballs</string>
+    <string name="bread">Bread</string>
+    <string name="grapes">Grapes</string>
+    <string name="peanut_butter">Peanut Butter</string>
+    <string name="orange_juice">Orange Juice</string>
 </resources>

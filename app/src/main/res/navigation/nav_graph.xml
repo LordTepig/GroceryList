@@ -18,10 +18,21 @@
         android:id="@+id/groceryListFragment"
         android:name="com.bowen.grocerylist.GroceryListFragment"
         android:label="fragment_grocery_list"
-        tools:layout="@layout/fragment_grocery_list" />
+        tools:layout="@layout/fragment_grocery_list" >
+        <argument
+            android:name="nameArg"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_groceryListFragment_to_chooseItemFragment"
+            app:destination="@id/chooseItemFragment" />
+    </fragment>
     <fragment
         android:id="@+id/chooseItemFragment"
         android:name="com.bowen.grocerylist.ChooseItemFragment"
         android:label="fragment_choose_item"
-        tools:layout="@layout/fragment_choose_item" />
+        tools:layout="@layout/fragment_choose_item" >
+        <action
+            android:id="@+id/action_chooseItemFragment_to_groceryListFragment"
+            app:destination="@id/groceryListFragment" />
+    </fragment>
 </navigation>

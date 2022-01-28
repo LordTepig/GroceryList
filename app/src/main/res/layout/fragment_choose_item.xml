@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A982D8"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ChooseItemFragment">
 
@@ -95,7 +96,7 @@
         android:id="@+id/orange_juice_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="ORANGE JUICE"
+        android:text="@string/orange_juice"
         android:backgroundTint="#FF6F05 "
         app:layout_constraintTop_toBottomOf="@id/meatballs_button"
         app:layout_constraintStart_toStartOf="@id/meatballs_button"

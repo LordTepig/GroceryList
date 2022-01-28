@@ -24,7 +24,7 @@ class HomeFragment : Fragment() {
         binding.startListButton.setOnClickListener {
             val name = binding.enterNameEditText.text.toString()
 
-            val action = HomeFragmentDirections.actionHomeFragmentToGroceryListFragment()
+            val action = HomeFragmentDirections.actionHomeFragmentToGroceryListFragment(name)
             rootView.findNavController().navigate(action) //navigates to groceryListFragment
 
         }
